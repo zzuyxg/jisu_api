@@ -1,3 +1,23 @@
 {
-  "name":"zzuyxg/jisuapi"
+  "name":"zzuyxg/jisuapi",
+  "type": "library",
+  "description": "极速数据API",
+  "homepage": "https://github.com/zzuyxg/jisuapi",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Eric",
+      "email": "ieyangxiaoguo@126.com",
+      "homepage": "https://www.zzuyxg.top",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "Monolog": "src"
+    }
+  }
 }
